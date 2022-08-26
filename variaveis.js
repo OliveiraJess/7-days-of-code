@@ -11,3 +11,16 @@ const linguagem = prompt("Qual linguagem de programação você está estudando?
 const mensagem = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`;
 
 alert(mensagem);
+
+//EXTRA
+// Você vai complementar o código para que, depois de exibir a mensagem anterior, o programa pergunte:
+// Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para NÃO.
+
+const gostaDeEstudar = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 - SIM ou 2 - NÃO`);
+
+if (gostaDeEstudar == 1){
+    alert("Muito bom! Continue estudando e você terá muito sucesso.");
+}
+if (gostaDeEstudar == 2){
+    alert("Ahh que pena... Já tentou aprender outras linguagens?");
+}
